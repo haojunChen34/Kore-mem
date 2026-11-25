@@ -1,0 +1,375 @@
+{
+  "dataset_revision": "9068d8d9a2a47268fe6f7601b99a56a283c37be5",
+  "product_sources": {
+    "backend/kore_next/__init__.py": "49702fdf14aebc2550f2cae7cd6047b37dee96099c8251a628581b0bab03b82f",
+    "backend/kore_next/agent.py": "7695c2c8b9a9a4bfa3b7d927694f54e652a7f5633bb5e955593242f7ce4ec6a1",
+    "backend/kore_next/application.py": "69bacdad3e8e2b1f25794e2eadc2cad90ea44a4e34ef04e3aa539431e8c986f9",
+    "backend/kore_next/checkpoint.py": "b5334f3b90e104dc777bcddbd766a81ae7d488919549bdd8a1d82c8c333c0453",
+    "backend/kore_next/cli.py": "4d273342c4913608f0163b86d7eb236907791295bd4e7d15c30999bf99c251b8",
+    "backend/kore_next/config.py": "9d6f55941f3fdc8a4c0ce4ab5e9a968a959953d3642b7df86aa0461c459b058e",
+    "backend/kore_next/connectors.py": "4c6eed6f9b6df5591f5d801e24cb2a64b3934caa2f4b912a3a9a4ebbbbd8651e",
+    "backend/kore_next/context.py": "aabcbb978744fffc961b43221f964f4c7c11baed03cd282408546a43a99f59a8",
+    "backend/kore_next/database.py": "68c0cbbe0c39ca59a532fe3af009467e5f4b08a2672f3e5f5940faa50c382125",
+    "backend/kore_next/evidence.py": "c654fb07eb3c086d8b653833ffe86ffad742ef2a71924c0845591774099a6031",
+    "backend/kore_next/external_information.py": "b8e3c7dc39b1015aa3576cf5d6ec991b9a53e31fc030eab864c9648761feb49e",
+    "backend/kore_next/file_processing.py": "9360ba27579abdfb7b9aaae22ad037dfc73b5e366b477a3d45f1e10388cb5154",
+    "backend/kore_next/mcp.py": "689ae2c97f6b256bf18aaa64770926fae64c4bf01e3fc70640d1cc947c28a651",
+    "backend/kore_next/memory.py": "a65e03fcf398f8acc8e34a5a445f7dff696a2a4c5ace343ddc1f9b2d4b1b977a",
+    "backend/kore_next/memory_matching.py": "bb5b735b713585b85511a67da74f4ac509ba98150a58355294deada6dcb453a5",
+    "backend/kore_next/memory_protocol.py": "51ec3c6c37da2fd97943bd588b67e166aad1b7eafd391d202531d35e4afd8d79",
+    "backend/kore_next/memory_quality.py": "1e2becce41f94ad9a43e21bf5eca0ee2d1e03def3f5ed3ed3cd927adb075a41f",
+    "backend/kore_next/permissions.py": "3cf68359fdf70147d934570f49615c1a0a074af7126214c5ffec5a106b72d2d4",
+    "backend/kore_next/personal.py": "5bfe2f20513988d64e666e894b117b47067d12a1389206fd7f504ee78f686e69",
+    "backend/kore_next/proactive.py": "204a36fd102dd785b0f19565878ce9eea747391d2f11aa086732f11331a5de6a",
+    "backend/kore_next/real_connectors.py": "91d33adbf23c6495829c98104593121719e6cd4278912ba21903f2a63b6e7926",
+    "backend/kore_next/relations.py": "8af52a192e8993657f91482b4163617d3f4435a8161aa59c38ed549cbb389731",
+    "backend/kore_next/research.py": "17bec975f215cce980f306cfed3e78a13261f20ef87118c3d8aa74a59b92bf1c",
+    "backend/kore_next/run_insights.py": "6f8632a9ac3795b0717f0c6e55c494b625842c3874bc2bb0d20ba758a233a3a8",
+    "backend/kore_next/runtime_policy.py": "6f13ef255ffcd13179ef18d6c9c6fa1ded5e03663e6eb6f644685ccc2f22f7ed",
+    "backend/kore_next/sandbox.py": "e228a48ab492ff7619efd02b883f63e642588fcdd599ec451700e9fc39219841",
+    "backend/kore_next/secrets.py": "f01bbb5b27d4647ca0114e39a0e2f88742be760435fafc36fa367e1bb40377cf",
+    "backend/kore_next/security.py": "34c2bb8ff601b4458a6fe625a8cf867812a6b2c7563d700952812894d6765d8e",
+    "backend/kore_next/server.py": "1ca1b7126a0a01a35bb2fe94231e9b20d1ae7c0864679d279fbc7fb844c2852d",
+    "backend/kore_next/skill_learning.py": "2656516719febb578c2ec2324004e238a31f70ceeb3116e3cc07b5ca789ad3e5",
+    "backend/kore_next/tasks.py": "6f8cfe31385e856eb3b0c2781207cd1e93c04efd789fe3cbc8d0077cac635392",
+    "backend/kore_next/unified_search.py": "d182aceb15218e46467c0ea8f711971f28c21de83f5ad937d5c04e3c70d2e2fb",
+    "backend/kore_next/util.py": "affea8057747d7a2e7a765f80f7adaa3fa8e27719eb2f516aab030b537b929c3"
+  },
+  "adapter_sources": {
+    "common.py": "f522181f2eccd9b779229ae1fbad6772ca23dcb8227441cc730c4f01d15a171a",
+    "runtime.py": "252e3ad977e88ffeed1f1a0f639a963fd7462d83fd2f7bba8f333edd5a5d0bde",
+    "scoring.py": "c4389ae670a3e43c779d12cc29585bf1c60fa510cda0f8037c1d6fc998104952",
+    "timeout_policy.py": "aff0d1c5eb6c6c73073896eae3731597404cd693171fc9a93251acfcd82022b7",
+    "runner.py": "b4c247d037f8bba6a18d4ff5b635876143ec7314347a1a976a858ef6a921d55c",
+    "preflight.py": "14f0ceb87e892424763d450d8a126d96bc7d1704d67b8c8e7c32e25793db0589",
+    "offline_checks.py": "7595ca7767c4a644e7dcd1380c4ecf09c5cdb8b93c616bd8cf11378a4ed7a6d2",
+    "check_memory_search.py": "912a6ca80ecfac66d991488c83d4f82ed560e5a9b835bd9f8e2e666a46cc3cfd",
+    "prepare.py": "3ea59534c78cefb8d88d5322cfbcd7800917b1800b7c107305151833e1f452b3",
+    "report.py": "2738661dee138db3cea404900559557edaeaf2907e1ec6aedc398c054841898c",
+    "verify.py": "72dee00f0c90470d34732ba4d42e2efd531c596213adec4b663fec0247980808",
+    "final_audit.py": "593c1b9ac70274d47a2085fb12328140eb792421127e3b343f0467c1082e0fd2",
+    "preflight_scope.py": "0f8ef21ab0a7d5a2834b46b00db022f394de5849a036036652b2f977adc1ff09",
+    "pilot_report.py": "c2ffa91ba9e1b39efa48fb1d953ca22f05151eabd11457cbb6feec6bdf04a065",
+    "execution.py": "7ac55b24b547ced885503810d75462a679d4938276b5f226f5f023406a7d0415",
+    "single_report.py": "be6a675e0968382c85914b0485df56992cdd08d9a19b02ff3d643f878e6dade9",
+    "single_checks.py": "f598e43edc877b5638979bd575f269f8dd454dcdf2281f08ef1633ad6ebc505e",
+    "readiness_checks.py": "e30821334f7aa003ba408e0dfb243014163f7bc34dc9c2928adac6a07a0caa3a",
+    "current_source_checks.py": "4c114841a70550efe15f7e4e53fc003a81f378e465c9afd68a02be1ccb5780cb"
+  },
+  "effective_models": {
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-5.6-sol",
+      "base_url": "<OPENAI_COMPATIBLE_ENDPOINT>",
+      "api_style": "chat_completions",
+      "context_window": 1000000
+    },
+    "reflection": {
+      "provider": "openai",
+      "model": "gpt-5.6-sol",
+      "base_url": "<OPENAI_COMPATIBLE_ENDPOINT>",
+      "api_style": "chat_completions",
+      "context_window": 1000000
+    },
+    "maintenance": {
+      "provider": "openai",
+      "model": "gpt-5.6-sol",
+      "base_url": "<OPENAI_COMPATIBLE_ENDPOINT>",
+      "api_style": "chat_completions",
+      "context_window": 1000000
+    },
+    "summary": {
+      "provider": "openai",
+      "model": "gpt-5.6-sol",
+      "base_url": "<OPENAI_COMPATIBLE_ENDPOINT>",
+      "api_style": "chat_completions",
+      "context_window": 1000000
+    },
+    "relationship": {
+      "provider": "openai",
+      "model": "gpt-5.6-sol",
+      "base_url": "<OPENAI_COMPATIBLE_ENDPOINT>",
+      "api_style": "chat_completions",
+      "context_window": 1000000
+    }
+  },
+  "memory_policy": {},
+  "roles": {
+    "default_provider": "openai",
+    "reflection": {
+      "enabled": true,
+      "inherit_main": true,
+      "provider": null,
+      "model": null
+    },
+    "maintenance": {
+      "enabled": true,
+      "inherit_main": true,
+      "provider": null,
+      "model": null
+    },
+    "summary": {
+      "enabled": true,
+      "inherit_main": true,
+      "provider": null,
+      "model": null
+    },
+    "run_budget": {
+      "mode": "unlimited",
+      "multiplier": 3.0,
+      "model_call_budget": 24
+    }
+  },
+  "scope": "native_post_run_long_term_memory_only",
+  "requested_sampling": "Unchanged product requests; no explicit temperature/reasoning effort; effective provider defaults unverified",
+  "timeout_policy": {
+    "profile": "native_product_policy",
+    "source": "MemoryService.policy and Application._memory_relation_model",
+    "relation_total_default_seconds": 600,
+    "relation_http_read_default_seconds": 300,
+    "other_calls_default_http_seconds": 120,
+    "overrides": "isolated copy of saved memory_policy",
+    "retry_policy": "unchanged product transient retries; no quality retries",
+    "product_source_modified": false,
+    "ast_rewriting": false
+  },
+  "synthetic_clock": "2026-01-01T00:00:00Z + one minute per user turn; decay at the end of every 360 turns",
+  "answer_budget": {
+    "source": "unchanged product saved budget and independent safety fuse",
+    "settings": {
+      "max_steps": 20,
+      "run_warning_tokens": 80000,
+      "run_finalization_tokens": 100000,
+      "run_hard_tokens": 120000,
+      "run_warning_model_calls": 16,
+      "run_finalization_model_calls": 20,
+      "run_hard_model_calls": 24
+    },
+    "memory_tools": [
+      "tool_catalog",
+      "memory_list",
+      "memory_search",
+      "memory_read"
+    ]
+  },
+  "judge": "Unchanged pinned MemProbe rule scorer; all returned sub-scores retained",
+  "answer_source_run": "2026-11-24-frozen-conditional85",
+  "memory_source_run": "2026-11-23-current-source-full56",
+  "publication_provenance": {
+    "product_repository": "https://github.com/haojunChen34/Kore-Agent",
+    "recommended_product_commit": "0c78b26e6d0ecfef992a3b0185275d644f31eba8",
+    "scope": "Selected complete MemProbe answer round and the frozen memories it used; publication preparation, not a new run",
+    "files": {
+      "LICENSE": {
+        "source": "LICENSE",
+        "source_sha256": "7a85a8d1e16ba166ef7da2bd30eea86724907784e7b19d023db833e2584d1830",
+        "adaptations": []
+      },
+      "evals/memprobe/common.py": {
+        "source": "evals/memprobe/common.py",
+        "source_sha256": "f522181f2eccd9b779229ae1fbad6772ca23dcb8227441cc730c4f01d15a171a",
+        "adaptations": [
+          "Separate product checkout, explicit isolated config, no daily .env or database reads",
+          "Remove historical run default",
+          "Pin model from explicit per-run configuration",
+          "Replace private configuration/SecretStore lookup with environment key and public config",
+          "Offline preparation needs no API key; live calls still require it",
+          "Remove provider-specific proxy exception"
+        ]
+      },
+      "evals/memprobe/execution.py": {
+        "source": "evals/memprobe/execution.py",
+        "source_sha256": "7ac55b24b547ced885503810d75462a679d4938276b5f226f5f023406a7d0415",
+        "adaptations": [
+          "Standalone native run has no private historical baseline dependency; pause product errors for review"
+        ]
+      },
+      "evals/memprobe/runtime.py": {
+        "source": "evals/memprobe/runtime.py",
+        "source_sha256": "252e3ad977e88ffeed1f1a0f639a963fd7462d83fd2f7bba8f333edd5a5d0bde",
+        "adaptations": []
+      },
+      "evals/memprobe/scoring.py": {
+        "source": "evals/memprobe/scoring.py",
+        "source_sha256": "c4389ae670a3e43c779d12cc29585bf1c60fa510cda0f8037c1d6fc998104952",
+        "adaptations": []
+      },
+      "evals/memprobe/prepare.py": {
+        "source": "evals/memprobe/prepare.py",
+        "source_sha256": "3ea59534c78cefb8d88d5322cfbcd7800917b1800b7c107305151833e1f452b3",
+        "adaptations": [
+          "Pin and verify only the included upstream data/scorer dependency closure"
+        ]
+      },
+      "evals/memprobe/preflight.py": {
+        "source": "evals/memprobe/preflight.py",
+        "source_sha256": "14f0ceb87e892424763d450d8a126d96bc7d1704d67b8c8e7c32e25793db0589",
+        "adaptations": [
+          "Require a key for explicit live preflight before model calls"
+        ]
+      },
+      "evals/memprobe/runner.py": {
+        "source": "evals/memprobe/runner.py",
+        "source_sha256": "b4c247d037f8bba6a18d4ff5b635876143ec7314347a1a976a858ef6a921d55c",
+        "adaptations": [
+          "Freeze the delivered adapter files, excluding obsolete one-off drivers",
+          "Freeze aggregate_results.py instead of the two document generators"
+        ]
+      },
+      "evals/memprobe/verify.py": {
+        "source": "evals/memprobe/verify.py",
+        "source_sha256": "72dee00f0c90470d34732ba4d42e2efd531c596213adec4b663fec0247980808",
+        "adaptations": []
+      },
+      "evals/memprobe/timeout_policy.py": {
+        "source": "evals/memprobe/timeout_policy.py",
+        "source_sha256": "aff0d1c5eb6c6c73073896eae3731597404cd693171fc9a93251acfcd82022b7",
+        "adaptations": []
+      },
+      "evals/memprobe/offline_checks.py": {
+        "source": "evals/memprobe/offline_checks.py",
+        "source_sha256": "7595ca7767c4a644e7dcd1380c4ecf09c5cdb8b93c616bd8cf11378a4ed7a6d2",
+        "adaptations": []
+      },
+      "evals/memprobe/single_checks.py": {
+        "source": "evals/memprobe/single_checks.py",
+        "source_sha256": "f598e43edc877b5638979bd575f269f8dd454dcdf2281f08ef1633ad6ebc505e",
+        "adaptations": [
+          "Use JSON aggregation and verify no Markdown is generated or overwritten"
+        ]
+      },
+      "evals/memprobe/readiness_checks.py": {
+        "source": "evals/memprobe/readiness_checks.py",
+        "source_sha256": "e30821334f7aa003ba408e0dfb243014163f7bc34dc9c2928adac6a07a0caa3a",
+        "adaptations": []
+      },
+      "evals/memprobe/current_source_checks.py": {
+        "source": "evals/memprobe/current_source_checks.py",
+        "source_sha256": "4c114841a70550efe15f7e4e53fc003a81f378e465c9afd68a02be1ccb5780cb",
+        "adaptations": []
+      },
+      "evals/memprobe/check_memory_search.py": {
+        "source": "evals/memprobe/check_memory_search.py",
+        "source_sha256": "912a6ca80ecfac66d991488c83d4f82ed560e5a9b835bd9f8e2e666a46cc3cfd",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/LICENSE": {
+        "source": "evals/memprobe/vendor/LICENSE",
+        "source_sha256": "24f6731ffed1ff0a39f027baf1c237e03ff6530e804bc77e253fa4b88801c79b",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/DATA_LICENSE": {
+        "source": "evals/memprobe/vendor/DATA_LICENSE",
+        "source_sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/data/suite56/episodes.jsonl": {
+        "source": "evals/memprobe/vendor/data/suite56/episodes.jsonl",
+        "source_sha256": "24cf8a196735e851a195fc95ef5dc36a3534fd94e55d9b785cb7b9b6f3f8e3af",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/data/suite56/latent_specs.json": {
+        "source": "evals/memprobe/vendor/data/suite56/latent_specs.json",
+        "source_sha256": "54b76236fa21645d17813ddff1c28603f874b242e406c946322ceb8f3e72edce",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/src/eval/protocol.py": {
+        "source": "evals/memprobe/vendor/src/eval/protocol.py",
+        "source_sha256": "920904614c4a03d0b4160bd9d94f8258835190c97ea1cbd9760dbf2c0de8d30d",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/src/analysis/compute_metrics.py": {
+        "source": "evals/memprobe/vendor/src/analysis/compute_metrics.py",
+        "source_sha256": "f80fd719ec9412fa3c2c3e80386da64311d6dd317ef68b2228e94cd1458f96ed",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/src/paths.py": {
+        "source": "evals/memprobe/vendor/src/paths.py",
+        "source_sha256": "98e757141eba45c2b035e2640e53a3aaf12f9343b4999d38f12237820d08705b",
+        "adaptations": []
+      },
+      "evals/memprobe/vendor/src/llm.py": {
+        "source": "evals/memprobe/vendor/src/llm.py",
+        "source_sha256": "e5442daffc2079a63201e7e9e87b8104718b245ac4edfc1dd5dc782c332b8658",
+        "adaptations": []
+      },
+      "evals/memprobe/final_audit.py": {
+        "source": "evals/memprobe/final_audit.py",
+        "source_sha256": "593c1b9ac70274d47a2085fb12328140eb792421127e3b343f0467c1082e0fd2",
+        "adaptations": [
+          "Make historical comparison optional and point documentation audit to delivered adapter notes",
+          "Documentation audit targets consolidated TEST_REPORT.md",
+          "Audit static package documents; generated run Markdown is not required"
+        ]
+      },
+      "evals/memprobe/aggregate_results.py": {
+        "derived_from": {
+          "report.py": {
+            "source": "evals/memprobe/report.py",
+            "source_sha256": "2738661dee138db3cea404900559557edaeaf2907e1ec6aedc398c054841898c",
+            "adaptations": [
+              "Remove hard-coded local product path from generated historical report template"
+            ]
+          },
+          "single_report.py": {
+            "source": "evals/memprobe/single_report.py",
+            "source_sha256": "be6a675e0968382c85914b0485df56992cdd08d9a19b02ff3d643f878e6dade9",
+            "adaptations": [
+              "Optional historical comparison when a baseline is explicitly configured"
+            ]
+          }
+        },
+        "adaptations": [
+          "Combine numeric aggregation with read, percentile and observed_usage helpers",
+          "Remove Markdown report, resume prose and paired-report generation",
+          "Preserve native scoring summaries, optional numeric comparisons, API costs and failure-attempt accounting",
+          "Write JSON artifacts only; no model calls and no changes to original answers or snapshots"
+        ]
+      }
+    },
+    "selected_result": {
+      "answer_source_run": "2026-11-24-frozen-conditional85",
+      "memory_source_run": "2026-11-23-current-source-full56",
+      "questions": 224,
+      "source_per_answer_sha256": "1a46275fc011dbd3c1f1c9ce70cd8caa5b4df81d23488d629716f7808c2e8b44",
+      "source_formal_config_sha256": "95cbd02d91284b49d03231c18b0da9e187410f59d1238f1f49fb37cf91dc5a2c",
+      "source_snapshot_manifest_sha256": "f8c6434fbed4f05cb09b54c71ddd129ef16fac531a5bc5d14ad3c26cfa3dc4c0",
+      "transformations": [
+        "Keep only selected round answers; preserve question, gold, predicted, match, reason, usage and latency",
+        "Remove private absolute result paths; link each answer to its published memory snapshot",
+        "Keep selected formal-answer and reused-construction metrics; exclude synthetic preflight usage",
+        "Redact provider endpoint; retain effective model identifiers and source hashes",
+        "Export exact memories and memory_versions rows; omit all other SQLite tables",
+        "No modification of scoring rules, gold answers, generated memory contents or answer labels"
+      ]
+    },
+    "publication_layout": {
+      "main_documents": [
+        "README.md",
+        "TEST_REPORT.md"
+      ],
+      "retained_evidence": [
+        "reports/memprobe/per_question.json",
+        "reports/memprobe/metrics.json",
+        "snapshots/"
+      ],
+      "changes": [
+        "Consolidate existing report and adapter documentation",
+        "Embed publication provenance in this configuration file",
+        "Use an explicit package file list in offline validation instead of a separate PUBLIC_FILES.json",
+        "Replace report.py and single_report.py with JSON-only aggregate_results.py; adjust frozen files, checks and commands",
+        "Add portable logical-snapshot restoration, answer-only runner and offline checks; preserve all published numeric evidence"
+      ],
+      "new_model_calls": 0
+    },
+    "snapshot_answer_entry": {
+      "entry": "evals/memprobe/reanswer.py",
+      "offline_checks": "evals/memprobe/reanswer_checks.py",
+      "scope": "New answers from exact published memories/versions; no history reingestion or answer learning",
+      "restore": "Validate export hash/schema/logical fingerprint; atomically insert rows and rebuild product search indexes",
+      "results": "Separate new run directory; native scoring, actual API usage, timing, tools and integrity audit as JSON",
+      "historical_results_modified": false,
+      "new_live_model_calls_during_packaging": 0
+    }
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "format": "kore-mem-logical-snapshot-v1",
+  "answer_source_run": "2026-11-24-frozen-conditional85",
+  "memory_source_run": "2026-11-23-current-source-full56",
+  "export_scope": "Exact memories and memory_versions rows only; no configuration, core memory, conversation tables, or answer runs",
+  "original_db_bytes_included": false,
+  "fingerprint_algorithm": "sha256(json.dumps([memories_rows, memory_versions_rows], sort_keys=True, ensure_ascii=False).encode('utf-8'))",
+  "snapshots": {
+    "PILOT-01A": {
+      "file": "PILOT-01A.json",
+      "export_sha256": "6af4bb7420824633f672c06c5dd8b2765065c9159930fcdc64d6c3c6b3dfda2f",
+      "original_db_sha256": "aa7dcc998ee3e9ded159ccc9e76607009419b62296acc0fedc16cdede3d97fe5",
+      "memory_fingerprint": "34c2cab03ac16307daa69609dcd28f62629ef069d4ff9d4a7ca3b567dd1f0b20",
+      "history_user_turns": 46,
+      "original_frozen_at": "2026-11-23T08:29:21.969644+00:00",
+      "memory_records": 28,
+      "version_records": 32
+    },
+    "PILOT-01B": {
+      "file": "PILOT-01B.json",
+      "export_sha256": "e4f1e73d81511e279b79860d3647f52526537e61ba965424932df028accbcf15",
+      "original_db_sha256": "de5db5f0a2319dbaf1135df7f2031f05cd801801ec5c0c4fdf4431a5f148d9f8",
+      "memory_fingerprint": "3d3877686b62fde00f9b988c727aab33471766be9170b844111caa3ca07a0a4e",
+      "history_user_turns": 46,
+      "original_frozen_at": "2026-11-23T08:33:04.543989+00:00",
+      "memory_records": 34,
+      "version_records": 35
+    },
+    "PILOT-02A": {
+      "file": "PILOT-02A.json",
+      "export_sha256": "bc99c04d75a7966e3feb48b806dcc5ce49cff4c78bc8023b873ce5cb7276306d",
+      "original_db_sha256": "894de8eed13966a184fdd095594df76395f1c1e06cfb975fa5c0586ffb570f39",
+      "memory_fingerprint": "8fe8576dd5d9061ed27cdfc348107556ea4da263e2168ca5720db6df0d4191d4",
+      "history_user_turns": 42,
+      "original_frozen_at": "2026-11-23T10:14:30.270098+00:00",
+      "memory_records": 26,
+      "version_records": 32
+    },
+    "PILOT-02B": {
+      "file": "PILOT-02B.json",
+      "export_sha256": "a8e412f8b2ffa5cff52280efc6940c2dd853b37ff3836aca3eb499894677963d",
+      "original_db_sha256": "9266b9ecfe5b46856ab635c1253145d8c7ae69bab2ede2a05f6b80548069fedf",
+      "memory_fingerprint": "b94afcc192f633be88682fbcc18e03833802396df2dd3ea1f3773e8bd31fdae6",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T10:09:34.612661+00:00",
+      "memory_records": 21,
+      "version_records": 26
+    },
+    "PILOT-02C": {
+      "file": "PILOT-02C.json",
+      "export_sha256": "e9c4520a1cec6dd8bb3d7ed9f1e9e177682b51aa758d671f01e2d291a1d4643a",
+      "original_db_sha256": "67f26771b38d4fa39ee97eadacdf1ecfad1f87876bb8a5136271a66d7e6a8fbb",
+      "memory_fingerprint": "e59f533cc2de41cad92cce792df0e71b99325b07f25ce42f93ff6638bf8e6bf8",
+      "history_user_turns": 43,
+      "original_frozen_at": "2026-11-23T10:16:52.945539+00:00",
+      "memory_records": 29,
+      "version_records": 35
+    },
+    "PILOT-03A": {
+      "file": "PILOT-03A.json",
+      "export_sha256": "5891b370862fe75d19d7347167673cde3ab0695f12d657de9595db621442eeaa",
+      "original_db_sha256": "117e027b930eed3c04434e7a0dab80e1c52528126bc00afad506f31234ca08b0",
+      "memory_fingerprint": "85b22d9b29a2ac0386a79dca7335dfc7a01407f6db5c6c8db88167e7d6c16ea8",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T10:32:38.362203+00:00",
+      "memory_records": 25,
+      "version_records": 33
+    },
+    "PILOT-03B": {
+      "file": "PILOT-03B.json",
+      "export_sha256": "10ce43d7135a6c352d41012a0dbec6ce917bee2d990c53c78661417b517cd675",
+      "original_db_sha256": "016b027482cf6b1ff55ce490ca3b0f888624edb12a1622fedfa9255c4e809c32",
+      "memory_fingerprint": "238aa5b2df7d8654dcc43bd57e7bc256e87361275536774a5ea4d953b776af3c",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T10:40:45.448260+00:00",
+      "memory_records": 27,
+      "version_records": 31
+    },
+    "PILOT-03C": {
+      "file": "PILOT-03C.json",
+      "export_sha256": "64ebe6cc7c0089ea8fdf4e97febc92dc65edf514c94c4107c9254f34c9c13917",
+      "original_db_sha256": "6965164f288bb0aed0cd117e5a7e32d00f347b8e7af73180b13259007006c943",
+      "memory_fingerprint": "91e007a6e9c48055e106601d794ebaae794e76c72012472add84132ca070a20e",
+      "history_user_turns": 47,
+      "original_frozen_at": "2026-11-23T10:57:11.971183+00:00",
+      "memory_records": 29,
+      "version_records": 35
+    },
+    "PILOT-03D": {
+      "file": "PILOT-03D.json",
+      "export_sha256": "80480098ca8667b3f10b32650131c137b4ae2ddf9cb73705765ea4857ae9e01d",
+      "original_db_sha256": "a10228bc6fd4796225257eba0bb13bc3b3cc5c0fd07eee80e8a416adba7a544e",
+      "memory_fingerprint": "f41ad992b77067d9e72c87b3ed7f7bbbc64a6e3a8750dfe0dfb58f8f8569924f",
+      "history_user_turns": 42,
+      "original_frozen_at": "2026-11-23T11:14:12.469657+00:00",
+      "memory_records": 30,
+      "version_records": 36
+    },
+    "PILOT-04A": {
+      "file": "PILOT-04A.json",
+      "export_sha256": "31bdfd6e4345f79a9ba94607280f84373f75404c6e3c43457f0379dc17af7e16",
+      "original_db_sha256": "e69d5ec0bddfd6c044051bee6d20ea5ae08e89d29158ebe1d7072f5b173d6772",
+      "memory_fingerprint": "81ca1cd58b8e24502a427210ef1ea4e8ae0af5ea42110838c576fa209f7cb2d8",
+      "history_user_turns": 43,
+      "original_frozen_at": "2026-11-23T08:24:58.502191+00:00",
+      "memory_records": 21,
+      "version_records": 27
+    },
+    "PILOT-04B": {
+      "file": "PILOT-04B.json",
+      "export_sha256": "3cd1583d552c55095acaf976822ab06a3a5598202e7a2f839292b1706425ad3f",
+      "original_db_sha256": "fd02c9b1beddf3eea04b478be0fc996a3660ebcd9b22cba7ecebb2a7a497018d",
+      "memory_fingerprint": "b3a814444a6e89b926c4944485e01fa7c5cc5acd933ec812164382d3aff8624f",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T10:40:26.628704+00:00",
+      "memory_records": 21,
+      "version_records": 27
+    },
+    "PILOT-04C": {
+      "file": "PILOT-04C.json",
+      "export_sha256": "f43702667bae2813ca728b5b79aebce3e4cc3b6ea1afd74fc1867af5af94ca31",
+      "original_db_sha256": "008923ce93a3c92ab7eabf9ed15c004e2e496cfdccf380917558874b42e2607a",
+      "memory_fingerprint": "cb5dbbb1f2c608f70018b227389c7008af2f1525179fd2ab38975042d713cbbd",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T10:56:45.316747+00:00",
+      "memory_records": 15,
+      "version_records": 21
+    },
+    "PILOT-04D": {
+      "file": "PILOT-04D.json",
+      "export_sha256": "9765327814832beb5191a0fd6d468594e1d6d1aae141ee3247f6d6c72b97ae74",
+      "original_db_sha256": "3b18301e647872d39118214a81f4365440e8d00dfadb2e2d10e6f6f91da288b9",
+      "memory_fingerprint": "fde64d644bc30500411e0d9a74b72ca8cb0971d17bc168df35c71e4da9ef92e3",
+      "history_user_turns": 41,
+      "original_frozen_at": "2026-11-23T11:16:26.415569+00:00",
+      "memory_records": 15,
+      "version_records": 17
+    },
+    "PILOT-05A": {
+      "file": "PILOT-05A.json",
+      "export_sha256": "4ab93baa48c90a3446e370a9411128f3da97523f53b488fbd098c5bd427d2468",
+      "original_db_sha256": "a737062a98fbcfdcc683b863d61c9c7b696d3233c387b2dfb892f0a18a27766b",
+      "memory_fingerprint": "350e003af0454dce74985cf37ea37f2ab784611e9be29906015e5bd3b8d5873c",
+      "history_user_turns": 50,
+      "original_frozen_at": "2026-11-23T11:30:28.833854+00:00",
+      "memory_records": 31,
+      "version_records": 33
+    },
+    "PILOT-05B": {
+      "file": "PILOT-05B.json",
+      "export_sha256": "e015bf0bd5d41851b98c82483529e8d7b8844178198b16b68c62a6562a7280f2",
+      "original_db_sha256": "940f869c8259aa03fbff6b1fbb1ab70503c286f261e4436efed4822312ecd8f1",
+      "memory_fingerprint": "a16d6d60ae50f593c8e3d8aa107019d215db05a8f7915c2c8d7d670ddbdf4a83",
+      "history_user_turns": 50,
+      "original_frozen_at": "2026-11-23T11:34:43.003280+00:00",
+      "memory_records": 16,
+      "version_records": 20
+    },
+    "PILOT-06A": {
+      "file": "PILOT-06A.json",
+      "export_sha256": "3809b47271d9fa73a2e131d3464a1147162c813282bf669e71ab587ece3659ad",
+      "original_db_sha256": "6cc7ae996f24be7b90b2031e5531472ae0222c1d0e0f6fd0a7c8764663656a11",
+      "memory_fingerprint": "8f260824b71273c77796aebe057424f1c50e999808796e7d89c391977aaa65cb",
+      "history_user_turns": 48,
+      "original_frozen_at": "2026-11-23T11:40:51.897094+00:00",
+      "memory_records": 27,
+      "version_records": 30
+    },
+    "PILOT-06B": {
+      "file": "PILOT-06B.json",
+      "export_sha256": "2f3eb6e4136b817f8eeefe702bd4b5efb920aee57821590847cfad42af0761b2",
+      "original_db_sha256": "949179666a8c4d45fc009761405574f3956f0933f5da3f4fa5202a8fc708cdbb",
+      "memory_fingerprint": "a349e9772d3663a9429532505569fded0bd0aae7ea1703788a40a4a2f5a7cdb0",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T08:51:24.985150+00:00",
+      "memory_records": 29,
+      "version_records": 32
+    },
+    "PILOT-06C": {
+      "file": "PILOT-06C.json",
+      "export_sha256": "6bda2eafe5c9749b4b9f6f1b8ac6da07ca5637a4644e8e5001abcf78361504db",
+      "original_db_sha256": "2a40e4dcde16edf621e918e1a5b0636acd415b4946bdc6e0016c2f70d46c8901",
+      "memory_fingerprint": "0176f90ff63cd6cb38f779c6cc291a3b2535b72b6b52ed889dd65be1e4381876",
+      "history_user_turns": 47,
+      "original_frozen_at": "2026-11-23T12:01:42.561996+00:00",
+      "memory_records": 29,
+      "version_records": 35
+    },
+    "PILOT-07A": {
+      "file": "PILOT-07A.json",
+      "export_sha256": "73eaa000048df2825ef5ed382739be94df53f1d108b43b2a9488cc502b2fca19",
+      "original_db_sha256": "6652fcbba3a32964c463b7e5899d490f3ebcd44ca207a01bd586ce029c800c7b",
+      "memory_fingerprint": "c81719b76bc3fe4f0ff1c371ee4f4e235d49adb9fd599d9187259e6fd3a864fb",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T08:44:44.470730+00:00",
+      "memory_records": 14,
+      "version_records": 19
+    },
+    "PILOT-07B": {
+      "file": "PILOT-07B.json",
+      "export_sha256": "861b62b755eb1a27bce70d336ddae41c933fcda38fbdd54519857b2c85b4bc3c",
+      "original_db_sha256": "fbc06d514b4e6c353663cc401a40034f6f94b2cc1ac26554e72e4b716edda8cd",
+      "memory_fingerprint": "0aae20fed843f03e86b450cfdbdb1cccc5a90c27580abe7407c680f477f69619",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T11:45:25.740853+00:00",
+      "memory_records": 9,
+      "version_records": 11
+    },
+    "PILOT-08A": {
+      "file": "PILOT-08A.json",
+      "export_sha256": "99060af1668a8f59f28a2be437ec78ce48e078ad1a7896bf0e2db0198c3026b2",
+      "original_db_sha256": "b0f88b8a3fe7ccbc04e2015f337b06e61bcfcd4c74d20f1c271ec85384c7d842",
+      "memory_fingerprint": "02433777f1a91c90499df4a4fe5756c3f0206a8e176ed9467474e7e50d43d82f",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T12:17:18.176051+00:00",
+      "memory_records": 44,
+      "version_records": 49
+    },
+    "PILOT-08B": {
+      "file": "PILOT-08B.json",
+      "export_sha256": "99259bd41e503e8838e6f452514e7235145b51d6b5672dc01a2beb420e659836",
+      "original_db_sha256": "58878fb872de168f2a7631203da45661880590f66b90abb400206a75661f8426",
+      "memory_fingerprint": "8b115bbd7407b42cc83e133361c2bf18c2aa7072335c7ddcdbe8186620b8fab6",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T12:14:53.767556+00:00",
+      "memory_records": 33,
+      "version_records": 39
+    },
+    "PILOT-09A": {
+      "file": "PILOT-09A.json",
+      "export_sha256": "edbc9c6a74f544cd855466b8fa6323937e3aa6af3e443ba17791f88404acf7e2",
+      "original_db_sha256": "2dbad15dd366960ecda96ce7d70672cd661451e0c0e796935ada4880a67434b0",
+      "memory_fingerprint": "56912f755b782f2db4372262cfd8d2b83847ecb98996a77ee7601c29c7b38061",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T09:01:57.995477+00:00",
+      "memory_records": 32,
+      "version_records": 40
+    },
+    "PILOT-09B": {
+      "file": "PILOT-09B.json",
+      "export_sha256": "8a6764146fa7dafd7ddb70b14383b267baceda1f977e32a4061959bc69e65f69",
+      "original_db_sha256": "60be018b117051f4ca5f0c0c262596f0639db01ef02dceb13dfeb8f33d20890e",
+      "memory_fingerprint": "e81c79b5fc4fd24f457e02bfe2eb6043a6a9c368ac5809565f6ae36b184e4353",
+      "history_user_turns": 47,
+      "original_frozen_at": "2026-11-23T12:28:52.340832+00:00",
+      "memory_records": 28,
+      "version_records": 33
+    },
+    "PILOT-10A": {
+      "file": "PILOT-10A.json",
+      "export_sha256": "f46c4bfd4a8ee3db8348e27f2b34bb54ed111794cb88e207e4f698c2e2b29dc5",
+      "original_db_sha256": "c2674f29fa2a5ce23f83f5a0c3bf52ce646a66ae80256f6c34c213c90f0978c8",
+      "memory_fingerprint": "837f291b7bf1194dc3bd58bd0abe7e2fa20b74402318062b322fb4553e2a089a",
+      "history_user_turns": 58,
+      "original_frozen_at": "2026-11-23T13:01:20.972042+00:00",
+      "memory_records": 40,
+      "version_records": 52
+    },
+    "PILOT-10B": {
+      "file": "PILOT-10B.json",
+      "export_sha256": "52e702f97fc41dc4dda0d8f7b22b9d9f021508e0c7f71fe5aa2b246f6b01736d",
+      "original_db_sha256": "92028d79ecc6ad02b3d413bb993b0fa321946f5b465fde1dc1ba1535dce652e2",
+      "memory_fingerprint": "1e1791f79d781b6bcf0df6e7a8803dbaa4ea6b5245874f57433da4535b01caaa",
+      "history_user_turns": 52,
+      "original_frozen_at": "2026-11-23T09:13:43.648489+00:00",
+      "memory_records": 30,
+      "version_records": 36
+    },
+    "PILOT-11A": {
+      "file": "PILOT-11A.json",
+      "export_sha256": "53962e9bcae5332c92d0c05bc7e4f5c5fbbfe5f683f39509295b46822846de5d",
+      "original_db_sha256": "7383c0fdc5445e11a2c270854842c87edc12076ccf5a3ba7baab89b9099433a2",
+      "memory_fingerprint": "ce3b8bf5cfa325d670a4ede81fb6a8024f436192b2863a8ee9cea60d15a26a5c",
+      "history_user_turns": 55,
+      "original_frozen_at": "2026-11-23T12:48:03.906571+00:00",
+      "memory_records": 29,
+      "version_records": 38
+    },
+    "PILOT-11B": {
+      "file": "PILOT-11B.json",
+      "export_sha256": "f103e09156526c8ff792ce4d8f1544c814fda484b7d8a3eb7d252764a9167b76",
+      "original_db_sha256": "994e0ceb388181afa0953d6df52efa544a692d2c3c21b65b997feb125f5719d2",
+      "memory_fingerprint": "f58a63f16c3dfe91a5dccafc0d3b2babb6cbdd69f2698c75549eba4685dce465",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T13:05:12.563405+00:00",
+      "memory_records": 27,
+      "version_records": 38
+    },
+    "PILOT-12A": {
+      "file": "PILOT-12A.json",
+      "export_sha256": "b058437ed44e9314a541fcb19f7250ed5392951f69dc40292781fb05986e9341",
+      "original_db_sha256": "8df13a2b6cac13bb682c1215609dc231161b0bf0bcd1e22a4fffe8eeb480bb56",
+      "memory_fingerprint": "4b7bac1163d7eef573f500392bc44ef0ff3148cdd6b6777ed771a03e555dd21d",
+      "history_user_turns": 56,
+      "original_frozen_at": "2026-11-23T13:45:54.661859+00:00",
+      "memory_records": 44,
+      "version_records": 56
+    },
+    "PILOT-12B": {
+      "file": "PILOT-12B.json",
+      "export_sha256": "b236adb633f81e3f008c473913bd321fe0b8bb7bb579f973b6009a28d425703e",
+      "original_db_sha256": "6895b239872a45c4a7181ebadcfedbee6fb3dea28677e8f6bc4520d97d7b6b25",
+      "memory_fingerprint": "3c79569e780c30e9f26651ac8e67f814d1d9a78ac9fdaa84104f76ad4d98e32f",
+      "history_user_turns": 52,
+      "original_frozen_at": "2026-11-23T14:01:15.841870+00:00",
+      "memory_records": 42,
+      "version_records": 55
+    },
+    "PILOT-13A": {
+      "file": "PILOT-13A.json",
+      "export_sha256": "d5f83e12e5a73eafeb284738edb418078fa4c5a423f48a18f1e99d4529d9ec96",
+      "original_db_sha256": "d70e576eb6e754c56dc3494975176a882a5d36e86084368688e8277af0ad4a8f",
+      "memory_fingerprint": "6659006e067336c1c68277397a03b594b315013378cdf61caea6ab8bf6ed2136",
+      "history_user_turns": 48,
+      "original_frozen_at": "2026-11-23T13:48:04.794227+00:00",
+      "memory_records": 29,
+      "version_records": 35
+    },
+    "PILOT-13B": {
+      "file": "PILOT-13B.json",
+      "export_sha256": "f6bfc581818e312faa1e15a5e18b23fef4237c80bdf3c5a578e5b00941023b61",
+      "original_db_sha256": "7f1e469975a521a4304f0f7b5c10f2c228336274308b8bf2ae8c77590dcb2ed4",
+      "memory_fingerprint": "57371aafca0e0654f008758a946f708d23d23ea5f79d0897f6d298c43b9ce4d1",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T14:11:40.664646+00:00",
+      "memory_records": 22,
+      "version_records": 27
+    },
+    "PILOT-14A": {
+      "file": "PILOT-14A.json",
+      "export_sha256": "404a080325165b2c3de417efdd15cc9d280bb8aba058f537fba4677442d0bb08",
+      "original_db_sha256": "3118eb92f6f7fe4fcf13c5ba9d13afc3f8996dbd8fbc70e018d49020aabd17de",
+      "memory_fingerprint": "a4d73940edf14308c0f9a96fd5808e4ad59c3667fff448267ca8e41eef373e43",
+      "history_user_turns": 56,
+      "original_frozen_at": "2026-11-23T14:38:41.942360+00:00",
+      "memory_records": 42,
+      "version_records": 59
+    },
+    "PILOT-14B": {
+      "file": "PILOT-14B.json",
+      "export_sha256": "54853cfee9aa86e73f56e029405822ab5bf9b3dc064742f39faf36607a047047",
+      "original_db_sha256": "37ffaca8bd6b1e0b68312271c97f7713815b8bea7be0a4d0902a6fc3e7d917bf",
+      "memory_fingerprint": "f0377be8011fbb04f86bf039e6a72f96b62e2ebba511d28b218b3e7791bae760",
+      "history_user_turns": 49,
+      "original_frozen_at": "2026-11-23T14:35:43.503263+00:00",
+      "memory_records": 35,
+      "version_records": 45
+    },
+    "PILOT-14C": {
+      "file": "PILOT-14C.json",
+      "export_sha256": "a615e633de352061c79e1382ae345a294c8ef49554393d4eedf2baad6572ab73",
+      "original_db_sha256": "9f75b8ab8334c9a1dc98967027ecfee101890f7aae33a92db7232f1cb2a6ef29",
+      "memory_fingerprint": "e181327a7bcc653236b2383e7463386dca7f6d992099b9ca34b4479f06a67d7d",
+      "history_user_turns": 45,
+      "original_frozen_at": "2026-11-23T14:41:18.242358+00:00",
+      "memory_records": 29,
+      "version_records": 35
+    },
+    "PILOT-15A": {
+      "file": "PILOT-15A.json",
+      "export_sha256": "059138436b29c220d8d2e32b8778c1b8e1443564d63d4a9a51fda440c7fc2d5d",
+      "original_db_sha256": "d463983cd08cc026a2888989fb39d4460165908d303f41ec001b7582edaf70dc",
+      "memory_fingerprint": "33eba3455fe97b6334fd355b846899712d99642cffd47a133f873a1248cdd753",
+      "history_user_turns": 53,
+      "original_frozen_at": "2026-11-23T09:33:32.489856+00:00",
+      "memory_records": 34,
+      "version_records": 47
+    },
+    "PILOT-15B": {
+      "file": "PILOT-15B.json",
+      "export_sha256": "919f1afd513b07f743c0d85c95c2edda2111ed2e54fbc8e0ea313a22afc556c6",
+      "original_db_sha256": "a02aa34bac44997617b3b64d9751e72b7ebfee210adf8a30d3767dfca9813a7a",
+      "memory_fingerprint": "15eb89bd1ec38a6d91e4608062c625c422bf8905823fdbc6e9953bf6871b5c3e",
+      "history_user_turns": 45,
+      "original_frozen_at": "2026-11-23T15:03:37.397655+00:00",
+      "memory_records": 23,
+      "version_records": 32
+    },
+    "PILOT-15C": {
+      "file": "PILOT-15C.json",
+      "export_sha256": "f0861b3d51db674e75e93e7efa9d603cdaea1159b4225904321f5e3febc434a3",
+      "original_db_sha256": "416d56efa876fe88b4cb285288346cadd30e1d058b00170f1afcfd9fbc8a0030",
+      "memory_fingerprint": "829a80c236f0980f0bdc738503f772b546550b280a2c1e17445ffab4ec134541",
+      "history_user_turns": 47,
+      "original_frozen_at": "2026-11-23T15:05:54.517841+00:00",
+      "memory_records": 21,
+      "version_records": 32
+    },
+    "PILOT-16A": {
+      "file": "PILOT-16A.json",
+      "export_sha256": "d89c62a98156e4c9912caa2d3b7f87bd3eab785434de136dac6af6cbd8bf1fbc",
+      "original_db_sha256": "3c3d5673417dfc059c00829e3c0304c3374aaa66d55b4dea8747d3757c4e724d",
+      "memory_fingerprint": "9ddfb380518f2910236d1fc1b2c1ff90112969a2bd95e7098eae692421cf6e09",
+      "history_user_turns": 50,
+      "original_frozen_at": "2026-11-23T15:13:48.861844+00:00",
+      "memory_records": 34,
+      "version_records": 38
+    },
+    "PILOT-16B": {
+      "file": "PILOT-16B.json",
+      "export_sha256": "1bbf0cca1223f51f0b4a6df903bfc519206c995940d14635367978c946ea30fa",
+      "original_db_sha256": "527123578dd48df22540b1212f0903d7b715ee7b53766912eae37928b9479dd2",
+      "memory_fingerprint": "17d8bc34bf044421f467ee83342076bbfc2275549870999e18833b91a6efdd00",
+      "history_user_turns": 47,
+      "original_frozen_at": "2026-11-23T15:45:57.378403+00:00",
+      "memory_records": 43,
+      "version_records": 56
+    },
+    "PILOT-17A": {
+      "file": "PILOT-17A.json",
+      "export_sha256": "fb3c370f596746aae98ff3a466a7ec4bf0085b2d5814658bb2d844d9300cba2c",
+      "original_db_sha256": "e352f1d2a5b4b0ac9429e85fe2ea284e010ece6b9cb88adc766f96e5e6017f29",
+      "memory_fingerprint": "9f33b78151572d704dd87f5c2df1b526e99632e51b57b7ca1bc94ea35223d976",
+      "history_user_turns": 55,
+      "original_frozen_at": "2026-11-23T15:33:23.096811+00:00",
+      "memory_records": 21,
+      "version_records": 31
+    },
+    "PILOT-17B": {
+      "file": "PILOT-17B.json",
+      "export_sha256": "543599a8624ca6c345be5fe2c446674e4aa4c73109142788a6e4a932b2776ea0",
+      "original_db_sha256": "aa2e48268dc51d166c5b10c732b4175d75a73f49ad3c22511987442235b4bc21",
+      "memory_fingerprint": "fa93b662952679fe06508624a6b7927ca5327bdb1dd49e06c793a72176716fee",
+      "history_user_turns": 42,
+      "original_frozen_at": "2026-11-23T15:30:18.904371+00:00",
+      "memory_records": 14,
+      "version_records": 18
+    },
+    "PILOT-17C": {
+      "file": "PILOT-17C.json",
+      "export_sha256": "3d6d3486c12ebd58abc8bb2ec77e843a1654a42e42ee7b142502289dccc09c97",
+      "original_db_sha256": "338a9f16c174823869ecf95a812bd8151e9238c97161e6178664ba6badd9c1a5",
+      "memory_fingerprint": "4e8779d839e32a8b02dcd0b09020d71bc1e250e16d035624f15e730a259661d1",
+      "history_user_turns": 46,
+      "original_frozen_at": "2026-11-23T15:40:22.628824+00:00",
+      "memory_records": 6,
+      "version_records": 6
+    },
+    "PILOT-17D": {
+      "file": "PILOT-17D.json",
+      "export_sha256": "28375f51330aaab60696d4544ee3f5612ed4cde21dca5b50754f0c50f5c4db56",
+      "original_db_sha256": "944c26cf74aaa31b2f149e4559a4b1769c84e26a599ab31b04f3ab97cca172a5",
+      "memory_fingerprint": "a3688b4f56dcd5f599eead3c80f0a645e78c540ef6397cee11a66e0ead676f8f",
+      "history_user_turns": 44,
+      "original_frozen_at": "2026-11-23T15:52:41.377853+00:00",
+      "memory_records": 11,
+      "version_records": 16
+    },
+    "PILOT-18A": {
+      "file": "PILOT-18A.json",
+      "export_sha256": "819aa1f0af7714a1120ff1ee4b92507955efd2dbbc5a80ac47feaed8627c54d1",
+      "original_db_sha256": "2c959e0949357f34b891e11abcc59e4deebe530f95ea9e1375447e5ce446a97e",
+      "memory_fingerprint": "cce2585c0247263dc21561b88c876c9b0f0233f491fa596d6a9d8d4c205a34fa",
+      "history_user_turns": 53,
+      "original_frozen_at": "2026-11-23T16:25:02.243070+00:00",
+      "memory_records": 33,
+      "version_records": 46
+    },
+    "PILOT-18B": {
+      "file": "PILOT-18B.json",
+      "export_sha256": "86248b256eb5cbefa0ddac40c29ca59329168bc20a99811b0c755c35d493904e",
+      "original_db_sha256": "a7f720af0afb50b3578dd243b711ff782e7e9ead66ca71fb3426a9705cc6e82e",
+      "memory_fingerprint": "8cf969840344634780cc348f9ff9b61a077fe8f4bfe834caa0a1cee6f6f28780",
+      "history_user_turns": 43,
+      "original_frozen_at": "2026-11-23T09:28:13.484669+00:00",
+      "memory_records": 31,
+      "version_records": 36
+    },
+    "PILOT-18C": {
+      "file": "PILOT-18C.json",
+      "export_sha256": "3ec50c17baaf588ce41f55bba72d04c64fc33d76fd12bae659f5f6245f3723c6",
+      "original_db_sha256": "34a2c5900c8b338f95803a340e3da2178ad8e3a1b8a3403341ff89291267c452",
+      "memory_fingerprint": "86dd75e90d8d764c85ba49152315089a1e3f926a9fed38074864cdf62707ab16",
+      "history_user_turns": 47,
+      "original_frozen_at": "2026-11-23T16:28:43.074613+00:00",
+      "memory_records": 39,
+      "version_records": 48
+    },
+    "PILOT-18D": {
+      "file": "PILOT-18D.json",
+      "export_sha256": "4ebfc526e0a2480ab4ebb8d8106c42a182d4bdfcd5a56c3227d54ffa1e1101b5",
+      "original_db_sha256": "e4c12efbb3e080d937f5e87e47918aa745cdb0613277565c4b04464455f40ee1",
+      "memory_fingerprint": "ba72bcdfcf49bf5f5964e91a1a6fc4c3ba78c2a51fe29f18b1f16dfa370e2f7f",
+      "history_user_turns": 50,
+      "original_frozen_at": "2026-11-23T16:24:16.299794+00:00",
+      "memory_records": 26,
+      "version_records": 30
+    },
+    "PILOT-19A": {
+      "file": "PILOT-19A.json",
+      "export_sha256": "6ddfe2fe348c32f90955b4fe7d0ac446bda2f55372f1dcc71345e3e50d6d11bc",
+      "original_db_sha256": "69cd72e6f96bf642003e0689d652bdca96f4b188df0f2fb16315e0d83186184d",
+      "memory_fingerprint": "d008477a239d95de2f42dcefd28c1ca002183d9a4af2f90f7b362fa21b475189",
+      "history_user_turns": 58,
+      "original_frozen_at": "2026-11-23T17:11:49.766068+00:00",
+      "memory_records": 40,
+      "version_records": 52
+    },
+    "PILOT-19B": {
+      "file": "PILOT-19B.json",
+      "export_sha256": "385307cd5fa26b8a3fb56d09f3f65c325df894263c4b5131524f4c42bac81e7a",
+      "original_db_sha256": "9243ab57202997cfce8b492798ee18b594453498e3e5baf7984cb44211e2137d",
+      "memory_fingerprint": "3e608a4146917b5a64bc9bc8d1cb8dac094ee67506d2d872b07e25a8e2b777a0",
+      "history_user_turns": 50,
+      "original_frozen_at": "2026-11-23T17:06:02.072564+00:00",
+      "memory_records": 37,
+      "version_records": 48
+    },
+    "PILOT-19C": {
+      "file": "PILOT-19C.json",
+      "export_sha256": "f4dbfffdc44e06a35109c46b49c72c0d7049f8e0196099e766db4fa56c4201c9",
+      "original_db_sha256": "1fcdecbba6f6157a01a32ea2c2e5319b55bdd954d13e9291a0dcdd40f5fc364b",
+      "memory_fingerprint": "6742d19d715efc8311c1fc038877d12da03ef00d661697a9d22e263702484c6f",
+      "history_user_turns": 51,
+      "original_frozen_at": "2026-11-23T17:04:54.624674+00:00",
+      "memory_records": 33,
+      "version_records": 35
+    },
+    "PILOT-19D": {
+      "file": "PILOT-19D.json",
+      "export_sha256": "9cddbe88c7d516e79a82563aab4e51beb32cfcd8b9fd5ec7c0ba7ee2827b603a",
+      "original_db_sha256": "4fd49a8cee6fe610e27d9d5ffaa781ca80b6879d6c1c16eb963502f9127e71ca",
+      "memory_fingerprint": "866a551f654c64155b4e397ce31e3404e575a779307d408142b1ff78fd277123",
+      "history_user_turns": 50,
+      "original_frozen_at": "2026-11-23T17:40:22.543653+00:00",
+      "memory_records": 27,
+      "version_records": 31
+    },
+    "PILOT-20A": {
+      "file": "PILOT-20A.json",
+      "export_sha256": "adfb33819b1132309037bdd447c6956cf2ee21e8a73838dca41be60fbc2bc072",
+      "original_db_sha256": "c29525e716df29439a0db39874e913c3205d5671c17038ab4ca041a89266f3c8",
+      "memory_fingerprint": "51f8f87ce4288a415a133642e508dbd88f372404865c4d5040fe360c860f289e",
+      "history_user_turns": 55,
+      "original_frozen_at": "2026-11-23T17:57:40.648386+00:00",
+      "memory_records": 44,
+      "version_records": 55
+    },
+    "PILOT-20B": {
+      "file": "PILOT-20B.json",
+      "export_sha256": "41495a6854a3dd82258e9da7f662bc1885255a1a1e7e4978246733f9b35c2cd9",
+      "original_db_sha256": "d875fbbfd7bd527e9239eb226a5403ba91eeb81b77c95dc557a1d66ac9ad8a14",
+      "memory_fingerprint": "8a07413abb1792e34452ea0bfda1dd4e858bad240878f5a7d1bf139fc1b22f12",
+      "history_user_turns": 53,
+      "original_frozen_at": "2026-11-23T17:52:39.593650+00:00",
+      "memory_records": 30,
+      "version_records": 37
+    },
+    "PILOT-20C": {
+      "file": "PILOT-20C.json",
+      "export_sha256": "00bdaba57c05719ba37ad92575bbd659f6422b0e10edcee3358d3cc52a013275",
+      "original_db_sha256": "c8de740a9bd16133158841d2be1d02586daaadda22acbe021d87f3143bb623f5",
+      "memory_fingerprint": "0eabf02fd7f897c88f928bb551a9ad0609159b01a7e9baf5483bb3a4a24c6717",
+      "history_user_turns": 46,
+      "original_frozen_at": "2026-11-23T18:20:04.198535+00:00",
+      "memory_records": 42,
+      "version_records": 48
+    },
+    "PILOT-20D": {
+      "file": "PILOT-20D.json",
+      "export_sha256": "7fa8d5d6586ce71f57beab0c972eca2e2703998f06004594e67ba4e393792582",
+      "original_db_sha256": "e090e71b737eb6b058839ff51ea794d48bb4eca480efb068d484d85c501f6ef3",
+      "memory_fingerprint": "61a77d5e4a8bc5b5369d189fbaeb495a2af1277d3c7bcc41aaaf3ff45e171502",
+      "history_user_turns": 43,
+      "original_frozen_at": "2026-11-23T18:24:00.830945+00:00",
+      "memory_records": 32,
+      "version_records": 36
+    }
+  }
+}

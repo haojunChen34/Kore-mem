@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/jq-ding/MemProbe",
+  "revision": "9068d8d9a2a47268fe6f7601b99a56a283c37be5",
+  "downloaded_at": "2026-11-18T16:44:27.005829+00:00",
+  "files": {
+    "LICENSE": "24f6731ffed1ff0a39f027baf1c237e03ff6530e804bc77e253fa4b88801c79b",
+    "DATA_LICENSE": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "data/suite56/episodes.jsonl": "24cf8a196735e851a195fc95ef5dc36a3534fd94e55d9b785cb7b9b6f3f8e3af",
+    "data/suite56/latent_specs.json": "54b76236fa21645d17813ddff1c28603f874b242e406c946322ceb8f3e72edce",
+    "src/eval/protocol.py": "920904614c4a03d0b4160bd9d94f8258835190c97ea1cbd9760dbf2c0de8d30d",
+    "src/analysis/compute_metrics.py": "f80fd719ec9412fa3c2c3e80386da64311d6dd317ef68b2228e94cd1458f96ed",
+    "src/paths.py": "98e757141eba45c2b035e2640e53a3aaf12f9343b4999d38f12237820d08705b",
+    "src/llm.py": "e5442daffc2079a63201e7e9e87b8104718b245ac4edfc1dd5dc782c332b8658"
+  },
+  "distribution_note": "Unchanged minimal data/scorer subset; original hashes and license texts retained."
+}

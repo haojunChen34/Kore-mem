@@ -1,0 +1,47 @@
+{
+  "model": {
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "base_url": "https://your-provider.example/v1",
+    "api_style": "chat_completions",
+    "context_window": 1000000
+  },
+  "api_key_env": "KORE_MEM_API_KEY",
+  "roles": {
+    "default_provider": "openai",
+    "reflection": {
+      "enabled": true,
+      "inherit_main": true,
+      "provider": null,
+      "model": null
+    },
+    "maintenance": {
+      "enabled": true,
+      "inherit_main": true,
+      "provider": null,
+      "model": null
+    },
+    "summary": {
+      "enabled": true,
+      "inherit_main": true,
+      "provider": null,
+      "model": null
+    },
+    "run_budget": {
+      "mode": "unlimited",
+      "multiplier": 3.0,
+      "model_call_budget": 24
+    }
+  },
+  "memory_policy": {},
+  "runtime_settings": {
+    "max_steps": 20,
+    "run_warning_tokens": 80000,
+    "run_finalization_tokens": 100000,
+    "run_hard_tokens": 120000,
+    "run_warning_model_calls": 16,
+    "run_finalization_model_calls": 20,
+    "run_hard_model_calls": 24
+  },
+  "note": "Replace provider URL/model with your actual deployment. Historical model is a service-reported alias; no official API availability is implied."
+}

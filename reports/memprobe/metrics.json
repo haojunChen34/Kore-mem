@@ -1,0 +1,1058 @@
+{
+  "generated_at": "2026-11-24T06:24:35.181493+00:00",
+  "source_run": "2026-11-24-frozen-conditional85",
+  "dataset_revision": "9068d8d9a2a47268fe6f7601b99a56a283c37be5",
+  "summary": {
+    "n": 224,
+    "correct": 191,
+    "partial": 15,
+    "incorrect": 18,
+    "execution_error": 0,
+    "accuracy": 0.8526785714285714
+  },
+  "native_metrics": {
+    "n_answers": 224,
+    "overall_accuracy": {
+      "correct": 191,
+      "total": 224,
+      "accuracy": 0.8526785714285714
+    },
+    "per_probe_type": {
+      "change_detection": {
+        "correct": 52,
+        "total": 56,
+        "accuracy": 0.9285714285714286
+      },
+      "conflict_value": {
+        "correct": 24,
+        "total": 28,
+        "accuracy": 0.8571428571428571
+      },
+      "current_value": {
+        "correct": 46,
+        "total": 56,
+        "accuracy": 0.8214285714285714
+      },
+      "previous_value": {
+        "correct": 28,
+        "total": 28,
+        "accuracy": 1.0
+      },
+      "source": {
+        "correct": 24,
+        "total": 34,
+        "accuracy": 0.7058823529411765
+      },
+      "temporal": {
+        "correct": 17,
+        "total": 22,
+        "accuracy": 0.7727272727272727
+      }
+    },
+    "plasticity": {
+      "correct": 95,
+      "total": 112,
+      "accuracy": 0.8482142857142857
+    },
+    "stability": {
+      "correct": 96,
+      "total": 112,
+      "accuracy": 0.8571428571428571
+    },
+    "under_update": 0.1517857142857143,
+    "over_update": 0.1428571428571429,
+    "sp_balance": 0.8526551982049363,
+    "historical_fidelity": {
+      "correct": 28,
+      "total": 28,
+      "accuracy": 1.0
+    },
+    "source_fidelity": {
+      "correct": 43,
+      "total": 62,
+      "accuracy": 0.6935483870967742,
+      "source_probe": {
+        "correct": 24,
+        "total": 34,
+        "accuracy": 0.7058823529411765
+      },
+      "conflict_status": {
+        "correct": 19,
+        "total": 28,
+        "accuracy": 0.6785714285714286
+      },
+      "conflict_source_sub": {
+        "correct": 15,
+        "total": 28,
+        "accuracy": 0.5357142857142857
+      },
+      "conflict_value_sub": {
+        "correct": 28,
+        "total": 28,
+        "accuracy": 1.0
+      },
+      "conflict_applicability_sub": {
+        "correct": 27,
+        "total": 28,
+        "accuracy": 0.9642857142857143
+      }
+    },
+    "temporal_fidelity": {
+      "correct": 17,
+      "total": 22,
+      "accuracy": 0.7727272727272727
+    },
+    "non_split": {
+      "correct": 157,
+      "total": 176,
+      "accuracy": 0.8920454545454546
+    },
+    "split": {
+      "correct": 34,
+      "total": 48,
+      "accuracy": 0.7083333333333334
+    },
+    "split_penalty": 0.18371212121212122,
+    "split_per_probe": {
+      "change_detection": {
+        "correct": 10,
+        "total": 12,
+        "accuracy": 0.8333333333333334
+      },
+      "conflict_value": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "current_value": {
+        "correct": 4,
+        "total": 12,
+        "accuracy": 0.3333333333333333
+      },
+      "previous_value": {
+        "correct": 12,
+        "total": 12,
+        "accuracy": 1.0
+      },
+      "source": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "temporal": {
+        "correct": 8,
+        "total": 12,
+        "accuracy": 0.6666666666666666
+      }
+    },
+    "non_split_per_probe": {
+      "change_detection": {
+        "correct": 42,
+        "total": 44,
+        "accuracy": 0.9545454545454546
+      },
+      "conflict_value": {
+        "correct": 24,
+        "total": 28,
+        "accuracy": 0.8571428571428571
+      },
+      "current_value": {
+        "correct": 42,
+        "total": 44,
+        "accuracy": 0.9545454545454546
+      },
+      "previous_value": {
+        "correct": 16,
+        "total": 16,
+        "accuracy": 1.0
+      },
+      "source": {
+        "correct": 24,
+        "total": 34,
+        "accuracy": 0.7058823529411765
+      },
+      "temporal": {
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9
+      }
+    },
+    "split_current_value_accuracy": 0.3333333333333333,
+    "split_change_detection_accuracy": 0.8333333333333334
+  },
+  "by_type": {
+    "current_value": {
+      "n": 56,
+      "correct": 46,
+      "partial": 0,
+      "incorrect": 10,
+      "execution_error": 0,
+      "accuracy": 0.8214285714285714
+    },
+    "previous_value": {
+      "n": 28,
+      "correct": 28,
+      "partial": 0,
+      "incorrect": 0,
+      "execution_error": 0,
+      "accuracy": 1.0
+    },
+    "change_detection": {
+      "n": 56,
+      "correct": 52,
+      "partial": 0,
+      "incorrect": 4,
+      "execution_error": 0,
+      "accuracy": 0.9285714285714286
+    },
+    "conflict_value": {
+      "n": 28,
+      "correct": 24,
+      "partial": 4,
+      "incorrect": 0,
+      "execution_error": 0,
+      "accuracy": 0.8571428571428571
+    },
+    "source": {
+      "n": 34,
+      "correct": 24,
+      "partial": 7,
+      "incorrect": 3,
+      "execution_error": 0,
+      "accuracy": 0.7058823529411765
+    },
+    "temporal": {
+      "n": 22,
+      "correct": 17,
+      "partial": 4,
+      "incorrect": 1,
+      "execution_error": 0,
+      "accuracy": 0.7727272727272727
+    }
+  },
+  "by_paradigm": {
+    "consolidation": {
+      "n": 56,
+      "correct": 52,
+      "partial": 1,
+      "incorrect": 3,
+      "execution_error": 0,
+      "accuracy": 0.9285714285714286
+    },
+    "interference": {
+      "n": 56,
+      "correct": 50,
+      "partial": 2,
+      "incorrect": 4,
+      "execution_error": 0,
+      "accuracy": 0.8928571428571429
+    },
+    "misinformation": {
+      "n": 56,
+      "correct": 43,
+      "partial": 7,
+      "incorrect": 6,
+      "execution_error": 0,
+      "accuracy": 0.7678571428571429
+    },
+    "reconsolidation": {
+      "n": 56,
+      "correct": 46,
+      "partial": 5,
+      "incorrect": 5,
+      "execution_error": 0,
+      "accuracy": 0.8214285714285714
+    }
+  },
+  "structured_subscores": {
+    "conflict_value": {
+      "structured_subscores_tasks": 28,
+      "questions": 28,
+      "fields": {
+        "source_identified": {
+          "correct": 15,
+          "partial": 0,
+          "incorrect": 13,
+          "measured": 28,
+          "not_recorded": 0,
+          "total_type_questions": 28
+        },
+        "status_classified": {
+          "correct": 19,
+          "partial": 0,
+          "incorrect": 9,
+          "measured": 28,
+          "not_recorded": 0,
+          "total_type_questions": 28
+        },
+        "target_applicability": {
+          "correct": 27,
+          "partial": 0,
+          "incorrect": 1,
+          "measured": 28,
+          "not_recorded": 0,
+          "total_type_questions": 28
+        },
+        "value_identified": {
+          "correct": 28,
+          "partial": 0,
+          "incorrect": 0,
+          "measured": 28,
+          "not_recorded": 0,
+          "total_type_questions": 28
+        }
+      }
+    },
+    "source": {
+      "structured_subscores_tasks": 34,
+      "questions": 34,
+      "fields": {
+        "accepted_match": {
+          "correct": 33,
+          "partial": 0,
+          "incorrect": 1,
+          "measured": 34,
+          "not_recorded": 0,
+          "total_type_questions": 34
+        },
+        "class_match": {
+          "correct": 24,
+          "partial": 0,
+          "incorrect": 10,
+          "measured": 34,
+          "not_recorded": 0,
+          "total_type_questions": 34
+        }
+      }
+    },
+    "temporal": {
+      "structured_subscores_tasks": 14,
+      "questions": 22,
+      "fields": {
+        "direction": {
+          "correct": 13,
+          "partial": 0,
+          "incorrect": 1,
+          "measured": 14,
+          "not_recorded": 8,
+          "total_type_questions": 22
+        },
+        "old_value": {
+          "correct": 14,
+          "partial": 0,
+          "incorrect": 0,
+          "measured": 14,
+          "not_recorded": 8,
+          "total_type_questions": 22
+        },
+        "trigger": {
+          "correct": 9,
+          "partial": 0,
+          "incorrect": 5,
+          "measured": 14,
+          "not_recorded": 8,
+          "total_type_questions": 22
+        }
+      }
+    }
+  },
+  "answer_usage": {
+    "requests": 860,
+    "completed_requests": 860,
+    "inflight_requests": 0,
+    "missing_usage_requests": 0,
+    "input_tokens": 4792853,
+    "output_tokens": 138369,
+    "total_tokens": 4931222,
+    "cached_input_tokens": 785792
+  },
+  "scoring_usage": {
+    "requests": 0,
+    "tokens": 0
+  },
+  "performance": {
+    "per_question_input_tokens": {
+      "n": 224,
+      "sum": 4792853,
+      "mean": 21396.665178571428,
+      "p50": 17314.0,
+      "p95": 59870.94999999995,
+      "min": 1459,
+      "max": 100696
+    },
+    "per_question_output_tokens": {
+      "n": 224,
+      "sum": 138369,
+      "mean": 617.71875,
+      "p50": 554.5,
+      "p95": 1438.1499999999996,
+      "min": 46,
+      "max": 1924
+    },
+    "per_question_total_tokens": {
+      "n": 224,
+      "sum": 4931222,
+      "mean": 22014.383928571428,
+      "p50": 17788.5,
+      "p95": 60984.04999999995,
+      "min": 1511,
+      "max": 102565
+    },
+    "per_question_first_call_input_tokens": {
+      "n": 224,
+      "sum": 429022,
+      "mean": 1915.2767857142858,
+      "p50": 1950.5,
+      "p95": 2133.85,
+      "min": 1417,
+      "max": 2271
+    },
+    "per_question_model_calls": {
+      "n": 224,
+      "sum": 860,
+      "mean": 3.8392857142857144,
+      "p50": 4.0,
+      "p95": 6.0,
+      "min": 1,
+      "max": 9
+    },
+    "per_question_seconds": {
+      "n": 224,
+      "sum": 5673.1301814,
+      "mean": 25.326474024107142,
+      "p50": 24.2014470499999,
+      "p95": 47.85539657500009,
+      "min": 3.452420699999948,
+      "max": 78.45745090000014
+    },
+    "per_question_read_calls": {
+      "n": 224,
+      "sum": 573,
+      "mean": 2.5580357142857144,
+      "p50": 2.0,
+      "p95": 6.0,
+      "min": 0,
+      "max": 9
+    },
+    "per_question_steps": {
+      "n": 224,
+      "sum": 856,
+      "mean": 3.8214285714285716,
+      "p50": 4.0,
+      "p95": 6.0,
+      "min": 1,
+      "max": 9
+    },
+    "per_request_seconds": {
+      "n": 860,
+      "sum": 5254.058949200003,
+      "mean": 6.109370871162794,
+      "p50": 5.300992950000023,
+      "p95": 11.282158150000043,
+      "min": 2.6912397999999484,
+      "max": 64.00870510000004
+    },
+    "per_request_input_tokens": {
+      "n": 860,
+      "sum": 4792853,
+      "mean": 5573.0848837209305,
+      "p50": 3469.5,
+      "p95": 14668.949999999999,
+      "min": 112,
+      "max": 34267
+    },
+    "wall_seconds": 1943.582292,
+    "concurrency": 3,
+    "cached_input_tokens_explicit_sum": 785792,
+    "requests_with_cache_field": 185,
+    "usage_complete_tasks": 224,
+    "model_names": {
+      "gpt-5.6-sol": 860
+    },
+    "calls_by_phase": {
+      "answer": 860
+    }
+  },
+  "answer_behavior": {
+    "tool_calls": {
+      "tool_catalog": {
+        "attempts": 136,
+        "success": 136,
+        "failure": 0,
+        "unknown": 0,
+        "task_count": 136,
+        "duration_ms": {
+          "n": 136,
+          "sum": 0,
+          "mean": 0,
+          "p50": 0.0,
+          "p95": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "memory_search": {
+        "attempts": 330,
+        "success": 330,
+        "failure": 0,
+        "unknown": 0,
+        "task_count": 157,
+        "duration_ms": {
+          "n": 330,
+          "sum": 19292,
+          "mean": 58.46060606060606,
+          "p50": 43.0,
+          "p95": 125.0,
+          "min": 18,
+          "max": 339
+        }
+      },
+      "memory_read": {
+        "attempts": 573,
+        "success": 573,
+        "failure": 0,
+        "unknown": 0,
+        "task_count": 197,
+        "duration_ms": {
+          "n": 573,
+          "sum": 21006,
+          "mean": 36.659685863874344,
+          "p50": 36,
+          "p95": 48.0,
+          "min": 10,
+          "max": 315
+        }
+      },
+      "memory_list": {
+        "attempts": 3,
+        "success": 3,
+        "failure": 0,
+        "unknown": 0,
+        "task_count": 3,
+        "duration_ms": {
+          "n": 3,
+          "sum": 70,
+          "mean": 23.333333333333332,
+          "p50": 21,
+          "p95": 27.299999999999997,
+          "min": 21,
+          "max": 28
+        }
+      }
+    },
+    "total_tool_attempts": 1042,
+    "tasks_with_tools": 198,
+    "tasks_without_tools": 26,
+    "runtime_verification_tasks": 177,
+    "runtime_verification_tool_tasks": 141,
+    "runtime_verification_prompt_only_tasks": 36,
+    "query_rewrite_tasks": 4,
+    "initial_candidate_counts": {
+      "n": 224,
+      "sum": 1013,
+      "mean": 4.522321428571429,
+      "p50": 5.0,
+      "p95": 5.0,
+      "min": 0,
+      "max": 5
+    },
+    "initial_candidates_distribution": {
+      "5": 183,
+      "3": 14,
+      "2": 9,
+      "1": 6,
+      "4": 8,
+      "0": 4
+    },
+    "initial_candidates_usage_states": {
+      "current": 1013
+    },
+    "notice_usage_states": {
+      "assessment_pending": 90,
+      "qualified": 555
+    },
+    "tasks_with_notices": 223,
+    "usage_records": {
+      "injected": 1013,
+      "cited": 375,
+      "read": 530
+    },
+    "tasks_with_citations": 222,
+    "citation_counts": {
+      "n": 224,
+      "sum": 375,
+      "mean": 1.6741071428571428,
+      "p50": 2.0,
+      "p95": 3.0,
+      "min": 0,
+      "max": 4
+    },
+    "tool_call_origins": {
+      "model": 802,
+      "memory_verification": 240
+    },
+    "tool_purposes": {
+      "memory_search": {
+        "history": 117,
+        "all": 141,
+        "current": 8,
+        "disputes": 30,
+        "qualified": 34
+      },
+      "memory_read": {
+        "history": 145,
+        "all": 173,
+        "current": 162,
+        "qualified": 87,
+        "disputes": 6
+      },
+      "memory_list": {
+        "qualified": 1,
+        "history": 1,
+        "all": 1
+      }
+    },
+    "event_types": {
+      "agent_started": 224,
+      "run_budget_configured": 224,
+      "context_prepared": 856,
+      "model_request": 860,
+      "assistant_message": 856,
+      "agent_completed": 224,
+      "tool_call": 1042,
+      "tool_result": 1042,
+      "memory_verification": 354,
+      "memory_query_rewrite": 4
+    },
+    "stop_reasons": {
+      "completed": 224
+    }
+  },
+  "reused_memory_construction": {
+    "source_run": "2026-11-23-current-source-full56",
+    "snapshots": 56,
+    "records": 1603,
+    "records_per_scene": {
+      "n": 56,
+      "sum": 1603,
+      "mean": 28.625,
+      "p50": 29.0,
+      "p95": 43.25,
+      "min": 6,
+      "max": 44
+    },
+    "history_turns": {
+      "n": 56,
+      "sum": 2693,
+      "mean": 48.089285714285715,
+      "p50": 47.5,
+      "p95": 56.0,
+      "min": 41,
+      "max": 58
+    },
+    "history_units_logged": 2693,
+    "turn_statuses": {
+      "completed": 2692,
+      "product_failure": 1
+    },
+    "reflection_triggered_units": 2636,
+    "units_with_created_or_updated_records": 1144,
+    "record_write_occurrences": 1845,
+    "status": {
+      "archived": 62,
+      "active": 1541
+    },
+    "fact_state": {
+      "superseded": 62,
+      "current": 914,
+      "qualified": 627
+    },
+    "fact_kind": {
+      "current": 831,
+      "plan": 233,
+      "historical": 142,
+      "reported": 356,
+      "hypothesis": 35,
+      "unknown": 6
+    },
+    "decision_state": {
+      "resolved": 1569,
+      "incomplete": 34
+    },
+    "acceptance_source": {
+      "automatic": 1603
+    },
+    "conflict_status": {
+      "none": 1603
+    },
+    "records_with_provenance": 1597,
+    "records_with_reassessment": 36,
+    "reassessment_final_states": {
+      "resolved": 27,
+      "incomplete": 9
+    },
+    "records_with_applied_extraction_correction": 4,
+    "history_processing_failures": [
+      {
+        "episode_id": "PILOT-12A",
+        "unit_id": "u0043",
+        "status": "product_failure",
+        "error_type": "ValueError",
+        "error": "Invalid memory extraction result",
+        "failure_scope": "native_post_run"
+      }
+    ],
+    "historical_mechanisms": {
+      "extraction_review_requests": 941,
+      "reextraction_requests": 7
+    },
+    "ingestion_usage": {
+      "requests": 5229,
+      "completed_requests": 5221,
+      "inflight_requests": 0,
+      "missing_usage_requests": 8,
+      "input_tokens": 13816346,
+      "output_tokens": 3961899,
+      "total_tokens": 17778245,
+      "cached_input_tokens": 1615232
+    },
+    "ingestion_usage_by_phase": {
+      "extraction": {
+        "requests": 3588,
+        "completed_requests": 3583,
+        "inflight_requests": 0,
+        "missing_usage_requests": 5,
+        "input_tokens": 7256858,
+        "output_tokens": 1958575,
+        "total_tokens": 9215433,
+        "cached_input_tokens": 1121408
+      },
+      "relationship": {
+        "requests": 1641,
+        "completed_requests": 1638,
+        "inflight_requests": 0,
+        "missing_usage_requests": 3,
+        "input_tokens": 6559488,
+        "output_tokens": 2003324,
+        "total_tokens": 8562812,
+        "cached_input_tokens": 493824
+      }
+    },
+    "ingestion_model_seconds_sum": 95272.74770630006,
+    "ingestion_task_seconds_sum": 95944.43229739997,
+    "periodic_decay_interval": 360,
+    "scenes_reaching_decay_interval": 0,
+    "per_scene": [
+      {
+        "episode_id": "PILOT-01A",
+        "memory_records": 28,
+        "history_user_turns": 46
+      },
+      {
+        "episode_id": "PILOT-01B",
+        "memory_records": 34,
+        "history_user_turns": 46
+      },
+      {
+        "episode_id": "PILOT-02A",
+        "memory_records": 26,
+        "history_user_turns": 42
+      },
+      {
+        "episode_id": "PILOT-02B",
+        "memory_records": 21,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-02C",
+        "memory_records": 29,
+        "history_user_turns": 43
+      },
+      {
+        "episode_id": "PILOT-03A",
+        "memory_records": 25,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-03B",
+        "memory_records": 27,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-04A",
+        "memory_records": 21,
+        "history_user_turns": 43
+      },
+      {
+        "episode_id": "PILOT-04B",
+        "memory_records": 21,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-03C",
+        "memory_records": 29,
+        "history_user_turns": 47
+      },
+      {
+        "episode_id": "PILOT-03D",
+        "memory_records": 30,
+        "history_user_turns": 42
+      },
+      {
+        "episode_id": "PILOT-04C",
+        "memory_records": 15,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-04D",
+        "memory_records": 15,
+        "history_user_turns": 41
+      },
+      {
+        "episode_id": "PILOT-05A",
+        "memory_records": 31,
+        "history_user_turns": 50
+      },
+      {
+        "episode_id": "PILOT-05B",
+        "memory_records": 16,
+        "history_user_turns": 50
+      },
+      {
+        "episode_id": "PILOT-06A",
+        "memory_records": 27,
+        "history_user_turns": 48
+      },
+      {
+        "episode_id": "PILOT-06B",
+        "memory_records": 29,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-06C",
+        "memory_records": 29,
+        "history_user_turns": 47
+      },
+      {
+        "episode_id": "PILOT-07A",
+        "memory_records": 14,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-07B",
+        "memory_records": 9,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-08A",
+        "memory_records": 44,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-08B",
+        "memory_records": 33,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-09A",
+        "memory_records": 32,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-09B",
+        "memory_records": 28,
+        "history_user_turns": 47
+      },
+      {
+        "episode_id": "PILOT-10A",
+        "memory_records": 40,
+        "history_user_turns": 58
+      },
+      {
+        "episode_id": "PILOT-10B",
+        "memory_records": 30,
+        "history_user_turns": 52
+      },
+      {
+        "episode_id": "PILOT-11A",
+        "memory_records": 29,
+        "history_user_turns": 55
+      },
+      {
+        "episode_id": "PILOT-11B",
+        "memory_records": 27,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-12A",
+        "memory_records": 44,
+        "history_user_turns": 56
+      },
+      {
+        "episode_id": "PILOT-12B",
+        "memory_records": 42,
+        "history_user_turns": 52
+      },
+      {
+        "episode_id": "PILOT-13A",
+        "memory_records": 29,
+        "history_user_turns": 48
+      },
+      {
+        "episode_id": "PILOT-13B",
+        "memory_records": 22,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-14A",
+        "memory_records": 42,
+        "history_user_turns": 56
+      },
+      {
+        "episode_id": "PILOT-14B",
+        "memory_records": 35,
+        "history_user_turns": 49
+      },
+      {
+        "episode_id": "PILOT-14C",
+        "memory_records": 29,
+        "history_user_turns": 45
+      },
+      {
+        "episode_id": "PILOT-15A",
+        "memory_records": 34,
+        "history_user_turns": 53
+      },
+      {
+        "episode_id": "PILOT-15B",
+        "memory_records": 23,
+        "history_user_turns": 45
+      },
+      {
+        "episode_id": "PILOT-15C",
+        "memory_records": 21,
+        "history_user_turns": 47
+      },
+      {
+        "episode_id": "PILOT-16A",
+        "memory_records": 34,
+        "history_user_turns": 50
+      },
+      {
+        "episode_id": "PILOT-16B",
+        "memory_records": 43,
+        "history_user_turns": 47
+      },
+      {
+        "episode_id": "PILOT-17A",
+        "memory_records": 21,
+        "history_user_turns": 55
+      },
+      {
+        "episode_id": "PILOT-17B",
+        "memory_records": 14,
+        "history_user_turns": 42
+      },
+      {
+        "episode_id": "PILOT-17C",
+        "memory_records": 6,
+        "history_user_turns": 46
+      },
+      {
+        "episode_id": "PILOT-17D",
+        "memory_records": 11,
+        "history_user_turns": 44
+      },
+      {
+        "episode_id": "PILOT-18A",
+        "memory_records": 33,
+        "history_user_turns": 53
+      },
+      {
+        "episode_id": "PILOT-18B",
+        "memory_records": 31,
+        "history_user_turns": 43
+      },
+      {
+        "episode_id": "PILOT-18C",
+        "memory_records": 39,
+        "history_user_turns": 47
+      },
+      {
+        "episode_id": "PILOT-18D",
+        "memory_records": 26,
+        "history_user_turns": 50
+      },
+      {
+        "episode_id": "PILOT-19A",
+        "memory_records": 40,
+        "history_user_turns": 58
+      },
+      {
+        "episode_id": "PILOT-19B",
+        "memory_records": 37,
+        "history_user_turns": 50
+      },
+      {
+        "episode_id": "PILOT-19C",
+        "memory_records": 33,
+        "history_user_turns": 51
+      },
+      {
+        "episode_id": "PILOT-19D",
+        "memory_records": 27,
+        "history_user_turns": 50
+      },
+      {
+        "episode_id": "PILOT-20A",
+        "memory_records": 44,
+        "history_user_turns": 55
+      },
+      {
+        "episode_id": "PILOT-20B",
+        "memory_records": 30,
+        "history_user_turns": 53
+      },
+      {
+        "episode_id": "PILOT-20C",
+        "memory_records": 42,
+        "history_user_turns": 46
+      },
+      {
+        "episode_id": "PILOT-20D",
+        "memory_records": 32,
+        "history_user_turns": 43
+      }
+    ]
+  },
+  "scope_gaps": {
+    "Recall@5 / nDCG@5 / fact_coverage": "未测：缺少对本轮生成记忆的独立事实级相关性与必要证据标注；问答分数和候选数不能替代。",
+    "irrelevant_injection_rate": "未测：没有独立无关问题集及记忆注入相关性标注。",
+    "AB_token_reduction / quality_delta": "本轮未设置全文注入对照组，不计算Token降幅或质量保持率。",
+    "semantic_tool_success / evidence_correctness": "未独立标注。工具success、引用和取证触发只表示执行行为，不代表取到了正确证据。",
+    "semantic_extraction_resolution_quality": "未独立标注。保存、自动裁决和复核数量不等于事实保存完整率或裁决正确率。",
+    "true_cost_currency": "缺少供应商实际计费账单与完整价格信息，只报告API usage。",
+    "reasoning_effort": "供应商默认，未独立核实；不能声称medium或high。",
+    "generalization / causal_effect / valid_post_selection_CI": "未验证未见数据泛化和因果关系；此处仅作描述性统计，不提供推断性置信区间。",
+    "decay_long_horizon": "未达到360轮周期阈值的场景不能证明长时间老化效果。"
+  },
+  "environment": {
+    "completed": 224,
+    "missing_answers": 0,
+    "failed_tasks": 0,
+    "model_errors": 0,
+    "environment_retries": 0,
+    "unknown_usage": 0,
+    "initial_candidates_same": 224,
+    "scores_reproduced": 224,
+    "snapshots_unchanged": 56,
+    "learning_disabled_tasks": 224
+  },
+  "metric_definitions": {
+    "correct": "unchanged MemProbe match=correct; not every fact field necessarily correct",
+    "percentile": "linear interpolation at (n-1)*q, same as existing report",
+    "stability": "accuracy on should_preserve probes",
+    "source_fidelity": "source question correct count plus conflict status correct count, divided by combined denominator",
+    "latency": "each full answer task, including all model/tool steps; concurrent wall-clock reported separately"
+  }
+}
